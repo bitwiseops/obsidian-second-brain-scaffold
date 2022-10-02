@@ -1,0 +1,166 @@
+{
+  "main": {
+    "id": "a90dab9c0ceb8e89",
+    "type": "split",
+    "children": [
+      {
+        "id": "85e7a3c3a14b3b11",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "project/Second Brain Scaffold.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4a77dd6d7272911d",
+    "type": "split",
+    "children": [
+      {
+        "id": "93b7f86431d708b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b003d92bda086aab",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "7f4b279a42fed0ea",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#project/second-brain-scaffold",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f52acae260b9622e",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 392.5
+  },
+  "right": {
+    "id": "fa5401c3d893a959",
+    "type": "split",
+    "children": [
+      {
+        "id": "2205376b0967088a",
+        "type": "tabs",
+        "dimension": 31.207729468599034,
+        "children": [
+          {
+            "id": "daa4672382bc2df2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "project/Second Brain Scaffold.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "a359db617437fc88",
+        "type": "tabs",
+        "dimension": 41.449275362318836,
+        "children": [
+          {
+            "id": "0038ebe617bf979a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "project/Second Brain Scaffold.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "ec17e65802192b48",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "project/Second Brain Scaffold.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "14dbd74cdaf0aeda",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "7118047bea69d9d4",
+        "type": "tabs",
+        "dimension": 27.342995169082123,
+        "children": [
+          {
+            "id": "c028724f0850983b",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 275
+  },
+  "active": "85e7a3c3a14b3b11",
+  "lastOpenFiles": [
+    "permanent/SBS - Brain Workflows.md",
+    "permanent/SBS - Fleeting Note.md",
+    "reference/Test.md",
+    "permanent/SBS - null.md",
+    "project/Second Brain Scaffold.md",
+    "fleeting/0000000000000001.md",
+    "permanent/SBS - Unlinked Note.md",
+    "permanent/SBS - Test.md",
+    "fleeting/0000000000000010.md",
+    "permanent/SBS - Reference Note.md"
+  ]
+}
