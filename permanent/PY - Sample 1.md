@@ -3,7 +3,7 @@ created_at: 02-10-2022
 alias: Sample 1
 project: Project Y
 tags: 
- state/new
+ state/done
  type/permanent
 ---
 
@@ -22,14 +22,20 @@ There are many variations of passages of Lorem Ipsum available, but the majority
 
 
 ---
-# Links
-- [[00000001]]
-- [[Sample Web Article]]
+## Links
+- [[1664735646]]
 
-## Fleetings
+### Unlinked Fleetings
 ```dataview
 table created_at as "Creation Date"
 from #type/fleeting and !outgoing([[PY - Sample 1]])
+where project = "Project Y"
+sort created_at desc
+```
+### Unlinked References
+```dataview
+table created_at as "Creation Date"
+from #type/reference and !outgoing([[PY - Sample 1]])
 where project = "Project Y"
 sort created_at desc
 ```

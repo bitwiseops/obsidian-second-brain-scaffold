@@ -23,13 +23,20 @@ tags:
 
 
 ---
-# Links
+## Links
 - 
 
-## Fleetings
+### Unlinked Fleetings
 ```dataview
 table created_at as "Creation Date"
 from #type/fleeting and !outgoing([[<% tp.config.target_file.filename %>]])
+where project = "<%tp.config.target_file.relatedProject%>"
+sort created_at desc
+```
+### Unlinked References
+```dataview
+table created_at as "Creation Date"
+from #type/reference and !outgoing([[<% tp.config.target_file.filename %>]])
 where project = "<%tp.config.target_file.relatedProject%>"
 sort created_at desc
 ```

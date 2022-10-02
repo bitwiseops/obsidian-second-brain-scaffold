@@ -1,6 +1,8 @@
 # Projects
-- [[Project X]]
-- [[Project Y]]
+```dataview
+table
+from "project"
+```
 
 # On going
 ```dataview 
@@ -12,5 +14,11 @@ sort created_at asc
 ```dataview 
 table project as "Related to", created_at as "Creation Date"
 from #state/new
+sort created_at asc
+```
+# Done
+```dataview 
+table project as "Related to", created_at as "Creation Date"
+from #state/done
 sort created_at asc
 ```

@@ -3,7 +3,7 @@ created_at: 02-10-2022
 alias: Sample 2
 project: Project X
 tags: 
- state/new
+ state/done
  type/permanent
 ---
 
@@ -21,15 +21,20 @@ tags:
 
 
 ---
-# Links
-- [[00000002]]
-- [[00000003]]
-- 
+## Links
+- [[1664735621]]
 
-## Fleetings
+### Unlinked Fleetings
 ```dataview
 table created_at as "Creation Date"
 from #type/fleeting and !outgoing([[PX - Sample 2]])
+where project = "Project X"
+sort created_at desc
+```
+### Unlinked References
+```dataview
+table created_at as "Creation Date"
+from #type/reference and !outgoing([[PX - Sample 2]])
 where project = "Project X"
 sort created_at desc
 ```
