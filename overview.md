@@ -1,3 +1,7 @@
+# Projects
+- [[Project X]]
+- [[Project Y]]
+
 # On going
 ```dataview 
 table project as "Related to", created_at as "Creation Date"

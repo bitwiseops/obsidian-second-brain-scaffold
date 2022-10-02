@@ -1,48 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "test.excalidraw",
-      "path": "_drawings/test.excalidraw.md"
-    },
-    {
       "basename": "overview",
       "path": "overview.md"
     },
     {
       "basename": "JoWR_2016_vol9_nr2_Schiller",
       "path": "_resources/JoWR_2016_vol9_nr2_Schiller.pdf"
-    },
-    {
-      "basename": "Second Brain Scaffold",
-      "path": "project/Second Brain Scaffold.md"
-    },
-    {
-      "basename": "SBS - Brain Workflows",
-      "path": "permanent/SBS - Brain Workflows.md"
-    },
-    {
-      "basename": "SBS - Fleeting Note",
-      "path": "permanent/SBS - Fleeting Note.md"
-    },
-    {
-      "basename": "0000000000000001",
-      "path": "fleeting/0000000000000001.md"
-    },
-    {
-      "basename": "SBS - Unlinked Note",
-      "path": "permanent/SBS - Unlinked Note.md"
-    },
-    {
-      "basename": "SBS - Reference Note",
-      "path": "permanent/SBS - Reference Note.md"
-    },
-    {
-      "basename": "SBS - Permanent Note",
-      "path": "permanent/SBS - Permanent Note.md"
-    },
-    {
-      "basename": "SBS - Project",
-      "path": "permanent/SBS - Project.md"
     },
     {
       "basename": "reference",
@@ -59,10 +23,6 @@
     {
       "basename": "fleeting",
       "path": "_templates/fleeting.md"
-    },
-    {
-      "basename": "My Zettelkasten Journey Understanding the Differences between Fleeting Notes, Literature Notes, Reference Notes, and Permanent Notes",
-      "path": "reference/My Zettelkasten Journey Understanding the Differences between Fleeting Notes, Literature Notes, Reference Notes, and Permanent Notes.md"
     },
     {
       "basename": "reference",

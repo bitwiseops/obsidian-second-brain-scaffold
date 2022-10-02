@@ -1,12 +1,14 @@
 <%*
 const title = await tp.system.prompt("Reference title")
 tp.config.target_file.title = title
+const relatedProject = await tp.system.suggester(tp.user.get_projects(), tp.user.get_projects(), true, "Choose a project")
+tp.config.target_file.relatedProject = relatedProject
 await tp.file.rename(title)
 %>---
-alias: 
 created_at: <%tp.date.now("DD-MM-YYYY")%>
 author: 
 url:
+project: <%tp.config.target_file.relatedProject%>
 tags: 
  state/new
  type/reference
@@ -14,3 +16,19 @@ tags:
 ---
 
 # <% tp.config.target_file.title  %>
+
+
+
+
+
+
+---
+# Links
+- 
+
+## Fleetings
+```dataview
+list 
+from #type/fleeting and !outgoing([[<% tp.config.target_file.title %>]])
+where project = "<%tp.config.target_file.relatedProject%>"
+```
