@@ -4,13 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "07287a6596d7e5fc",
+        "id": "d24605a4ef001dd4",
         "type": "leaf",
+        "dimension": 73.85003150598614,
         "state": {
-          "type": "excalidraw",
-          "state": {
-            "file": "_drawings/test.excalidraw.md"
-          }
+          "type": "empty",
+          "state": {}
+        }
+      },
+      {
+        "id": "fb20cb00bd9fa0b4",
+        "type": "leaf",
+        "dimension": 26.149968494013866,
+        "state": {
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -38,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#project/second-brain-scaffold",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -46,46 +54,20 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "f52acae260b9622e",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {}
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 392.5
+    "width": 273
   },
   "right": {
     "id": "fa5401c3d893a959",
     "type": "split",
     "children": [
       {
-        "id": "2205376b0967088a",
-        "type": "tabs",
-        "dimension": 31.207729468599034,
-        "children": [
-          {
-            "id": "daa4672382bc2df2",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "_drawings/test.excalidraw.md"
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "a359db617437fc88",
         "type": "tabs",
-        "dimension": 41.449275362318836,
         "children": [
           {
             "id": "0038ebe617bf979a",
@@ -93,26 +75,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drawings/test.excalidraw.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "ec17e65802192b48",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "_drawings/test.excalidraw.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
               }
             }
           },
@@ -126,32 +95,29 @@
                 "useHierarchy": true
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "7118047bea69d9d4",
-        "type": "tabs",
-        "dimension": 27.342995169082123,
-        "children": [
+          },
           {
-            "id": "c028724f0850983b",
+            "id": "ec17e65802192b48",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 275
+    "width": 275,
+    "collapsed": true
   },
-  "active": "07287a6596d7e5fc",
+  "active": "0038ebe617bf979a",
   "lastOpenFiles": [
-    "overview.md",
     "_drawings/test.excalidraw.md",
+    "overview.md",
     "_resources/JoWR_2016_vol9_nr2_Schiller.pdf",
     "project/Second Brain Scaffold.md",
     "permanent/SBS - Brain Workflows.md",

@@ -68,24 +68,8 @@
         "type": "split",
         "children": [
           {
-            "id": "2205376b0967088a",
-            "type": "tabs",
-            "dimension": 42.084942084942085,
-            "children": [
-              {
-                "id": "d2c9c7d35743119b",
-                "type": "leaf",
-                "state": {
-                  "type": "calendar",
-                  "state": {}
-                }
-              }
-            ]
-          },
-          {
             "id": "a359db617437fc88",
             "type": "tabs",
-            "dimension": 57.91505791505791,
             "children": [
               {
                 "id": "0038ebe617bf979a",
@@ -93,7 +77,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "collapseAll": false,
+                    "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
                     "showSearch": false,
@@ -132,7 +116,7 @@
         "width": 275,
         "collapsed": true
       },
-      "active": "d24605a4ef001dd4"
+      "active": "0038ebe617bf979a"
     }
   },
   "active": "main"
