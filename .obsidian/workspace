@@ -4,14 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "85e7a3c3a14b3b11",
+        "id": "07287a6596d7e5fc",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "excalidraw",
           "state": {
-            "file": "project/Second Brain Scaffold.md",
-            "mode": "source",
-            "source": false
+            "file": "_drawings/test.excalidraw.md"
           }
         }
       }
@@ -78,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "project/Second Brain Scaffold.md"
+                "file": "_drawings/test.excalidraw.md"
               }
             }
           }
@@ -95,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "project/Second Brain Scaffold.md",
+                "file": "_drawings/test.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "project/Second Brain Scaffold.md",
+                "file": "_drawings/test.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,17 +148,17 @@
     "direction": "horizontal",
     "width": 275
   },
-  "active": "85e7a3c3a14b3b11",
+  "active": "07287a6596d7e5fc",
   "lastOpenFiles": [
+    "overview.md",
+    "_drawings/test.excalidraw.md",
+    "_resources/JoWR_2016_vol9_nr2_Schiller.pdf",
+    "project/Second Brain Scaffold.md",
     "permanent/SBS - Brain Workflows.md",
     "permanent/SBS - Fleeting Note.md",
     "reference/Test.md",
     "permanent/SBS - null.md",
-    "project/Second Brain Scaffold.md",
     "fleeting/0000000000000001.md",
-    "permanent/SBS - Unlinked Note.md",
-    "permanent/SBS - Test.md",
-    "fleeting/0000000000000010.md",
-    "permanent/SBS - Reference Note.md"
+    "permanent/SBS - Unlinked Note.md"
   ]
 }
