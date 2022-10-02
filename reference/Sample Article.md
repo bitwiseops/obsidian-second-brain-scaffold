@@ -1,7 +1,7 @@
 ---
 created_at: 02-10-2022
-author: Haikal Kushahrin
-url: https://www.lipsum.com/
+author: 
+url:
 project: Project X
 tags: 
  state/done
@@ -9,7 +9,8 @@ tags:
  medium/web-article
 ---
 
-# Sample Web Article
+# Sample Article
+
 
 ## What is Lorem Ipsum?
 
@@ -21,13 +22,14 @@ It is a long established fact that a reader will be distracted by the readable c
 
 
 
----
-# Links
-- 
 
-## Fleetings
+---
+## Links
+- [[1664735583]]
+
+### Unlinked Fleetings
 ```dataview
-list 
-from #type/fleeting and !outgoing([[Sample Web Article]])
+list "created at " + created_at
+from #type/fleeting and !outgoing([[Sample Article]])
 where project = "Project X"
 ```

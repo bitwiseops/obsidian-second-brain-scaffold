@@ -23,12 +23,12 @@ tags:
 
 
 ---
-# Links
+## Links
 - 
 
-## Fleetings
+### Unlinked Fleetings
 ```dataview
-list 
+list "created at " + created_at
 from #type/fleeting and !outgoing([[<% tp.config.target_file.title %>]])
 where project = "<%tp.config.target_file.relatedProject%>"
 ```

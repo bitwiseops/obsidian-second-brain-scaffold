@@ -28,14 +28,14 @@ tags:
 
 ### Unlinked Fleetings
 ```dataview
-table created_at as "Creation Date"
+list "created at " + created_at
 from #type/fleeting and !outgoing([[<% tp.config.target_file.filename %>]])
 where project = "<%tp.config.target_file.relatedProject%>"
 sort created_at desc
 ```
 ### Unlinked References
 ```dataview
-table created_at as "Creation Date"
+list "created at " + created_at
 from #type/reference and !outgoing([[<% tp.config.target_file.filename %>]])
 where project = "<%tp.config.target_file.relatedProject%>"
 sort created_at desc
