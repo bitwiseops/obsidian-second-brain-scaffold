@@ -1,24 +1,9 @@
-# Projects
-```dataview
-table
-from "project"
-```
+# Overview
 
-# On going
+## Workspace
+
 ```dataview 
-table project as "Related to", created_at as "Creation Date"
-from #state/ongoing
-sort created_at asc
-```
-# New
-```dataview 
-table project as "Related to", created_at as "Creation Date"
-from #state/new
-sort created_at asc
-```
-# Done
-```dataview 
-table project as "Related to", created_at as "Creation Date"
-from #state/done
-sort created_at asc
+table split(filter(split(tags, " "), (t) => contains(t, "state"))[0],"/")[1] as State, project as "Related to",  created_at as "Creation Date", split(filter(split(tags, " "), (t) => contains(t, "type"))[0],"/")[1] as Type
+from "permanent" or "reference"
+sort split(filter(split(tags, " "), (t) => contains(t, "state"))[0],"/")[1] desc
 ```

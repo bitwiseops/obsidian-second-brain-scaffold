@@ -29,6 +29,6 @@ tags:
 ### Unlinked Fleetings
 ```dataview
 list "created at " + created_at
-from #type/fleeting and !outgoing([[<% tp.config.target_file.title %>]])
+from #type/fleeting and !outgoing([[]])
 where project = "<%tp.config.target_file.relatedProject%>"
 ```

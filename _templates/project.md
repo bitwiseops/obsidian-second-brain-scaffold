@@ -14,6 +14,6 @@ tags:
 ## Unlinked
 ```dataview
 list 
-from #type/permanent and !outgoing([[<% tp.config.target_file.title %>]])
+from #type/permanent and !outgoing([[]])
 where project = "<% tp.config.target_file.title %>"
 ```
