@@ -1,6 +1,9 @@
-<%await tp.file.rename(tp.date.now("X"))%>---
+<%*
+await tp.file.rename(tp.date.now("X"))
+await tp.user.prepare(tp, "fleeting")
+%>---
 created_at: <%tp.date.now("DD-MM-YYYY")%>
-project: <%await tp.system.suggester(tp.user.get_projects(), tp.user.get_projects(), true, "Choose a project")%>
+project:  <%tp.config.target_file.project%>
 tags: 
  type/fleeting
 ---

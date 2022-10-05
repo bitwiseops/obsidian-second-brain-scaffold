@@ -1,18 +1,15 @@
 <%*
-const title = await tp.system.prompt("Reference title")
-tp.config.target_file.title = title
-const relatedProject = await tp.system.suggester(tp.user.get_projects(), tp.user.get_projects(), true, "Choose a project")
-tp.config.target_file.relatedProject = relatedProject
-await tp.file.rename(title)
+await tp.file.rename(await tp.system.prompt("Reference title"))
+await tp.user.prepare(tp, "reference")
 %>---
-created_at: <%tp.date.now("DD-MM-YYYY")%>
-author: 
-url:
-project: <%tp.config.target_file.relatedProject%>
+created_at: <% tp.date.now("DD-MM-YYYY") %>
+url: <% tp.config.target_file["url"] %>
+author: <% tp.config.target_file["author"] %>
+project: <% tp.config.target_file["project"] %>
 tags: 
  state/new
  type/reference
- medium/<%await tp.system.suggester(tp.user.get_mediums(), tp.user.get_mediums(), true, "Choose a medium")%>
+ medium/<% tp.config.target_file["medium"] %>
 ---
 
 # <% tp.config.target_file.title  %>
@@ -24,7 +21,7 @@ tags:
 
 ---
 ## Links
-- 
+- [[<%tp.config.target_file.reference%>]]
 
 ### Unlinked Fleetings
 ```dataview
