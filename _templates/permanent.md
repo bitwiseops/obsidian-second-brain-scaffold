@@ -25,13 +25,13 @@ tags:
 ```dataview
 list "created at " + created_at
 from #type/fleeting and !outgoing([[]])
-where project = "<%tp.config.target_file.relatedProject%>"
+where project = "<%tp.config.target_file.project%>"
 sort created_at desc
 ```
 ### Unlinked References
 ```dataview
 list "created at " + created_at
 from #type/reference and !outgoing([[]])
-where project = "<%tp.config.target_file.relatedProject%>"
+where project = "<%tp.config.target_file.project%>"
 sort created_at desc
 ```
