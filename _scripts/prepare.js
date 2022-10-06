@@ -44,8 +44,9 @@ const templates = [
             {
                 name: "reference",
                 type: "suggest",
+                choices: () => get_files("_resources", true),
                 depends_on: "medium",
-                choices: () => get_files("_resources", true)
+                condition: (medium) => ["paper", "book"].includes(medium) //ask only if condition is met
             },
             {
                 name: "project",
@@ -73,8 +74,10 @@ async function prepare(tp, template){
     props.sort(e => e.depends_on ? 1 : -1 )
     for(const prop of props){
         let value;
-        if(prop.hasOwnProperty("condition") && !prop.condition(tp.config.target_file[prop.depends_on].value)){
-            continue
+        if(prop.hasOwnProperty("condition")){
+            if(!prop.condition(tp.config.target_file[prop.depends_on])){
+                continue
+            }
         }
         if(prop.type == "prompt"){
             value = await tp.system.prompt(prop.name)
