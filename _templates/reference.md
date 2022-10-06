@@ -3,6 +3,8 @@ tp.config.target_file.title = await tp.system.prompt("Reference title")
 await tp.file.rename(tp.config.target_file.title)
 
 await tp.user.prepare(tp, "reference")
+
+tp.config.target_file.reference = tp.config.target_file.reference ? "- [["+ tp.config.target_file.reference +"]]" : ""
 %>---
 created_at: <% tp.date.now("DD-MM-YYYY") %>
 url: <% tp.config.target_file.url %>
@@ -23,7 +25,7 @@ tags:
 
 ---
 ## Links
-- [[<%tp.config.target_file.reference%>]]
+<%tp.config.target_file.reference%>
 
 ### Unlinked Fleetings
 ```dataview
